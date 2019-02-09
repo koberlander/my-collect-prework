@@ -3,8 +3,8 @@ i = 0
 newArray = []
   while i < languages.length
   newArray << yield(languages[i])
-   i += i
-   
+   i += 1
  end 
+ newArray
 end
 
